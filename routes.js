@@ -13,9 +13,8 @@ server.get('/', function(req, res){
 // 	res.sendFile('index')
 // })
 
-server.get('/garden', function(req, res){
-    res.render('garden', data)
-
+server.get('/gardens', function(req, res){
+    res.render('garden')
 })
 
 module.exports = server
