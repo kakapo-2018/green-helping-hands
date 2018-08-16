@@ -11,7 +11,7 @@ server.get('/', function(req, res){
 // 	res.sendFile('index')
 // })
 
-server.get('/garden', function(req, res){
+server.get('/gardens', function(req, res){
     res.render('garden')
 
 })
