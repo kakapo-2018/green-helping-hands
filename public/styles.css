@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.cover{
+    color: rgb(224, 119, 119);
+    background: url(./bg.jpg);
+    min-height: 900px;
+    background-repeat: no-repeat;
+}
