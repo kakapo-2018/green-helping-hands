@@ -50,3 +50,11 @@ function emptyDiv3(){
 function emptyDiv4(){
     document.getElementById("div4").innerHTML = "";
 }
+
+
+//this calculates the water + 1 correctly on btn press. 
+function calcWater () {
+    alert ("clicked btn")
+    let waterTest = document.getElementById("water1");
+    console.log(Number(waterTest.innerHTML) + 1);
+}

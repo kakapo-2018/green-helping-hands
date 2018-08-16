@@ -1,8 +1,13 @@
 <div class="containerVege">
     {{#each vegetables}}
-    <div class="vege" ><img src="{{image}}"id="drag{{id}}"draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()"/></div>
-    <p value="{{water}}"></p>
+    <div class="vege" id="drag{{id}}"draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()" >
+        <img class="{{name}}" src="{{image}}"/>
+    <p id="water{{id}}">{{water}}</p>
+    </div>
+    
     {{/each }}
+
+    <button onclick="calcWater()">Calculate Water</button>
     
     
 {{!-- <br>
