@@ -198,3 +198,10 @@ img {
     padding-left: 30px;
     border: 1px solid black
 }
+
+.vege {
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}

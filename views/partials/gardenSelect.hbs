@@ -1,12 +1,13 @@
 <div class="containerVege">
     {{#each vegetables}}
-    <div class="vege" onclick="addToGarden()">{{name}}</div>
+    <div class="vege" ><img src="{{image}}"id="drag{{id}}"draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()"/></div>
+    <p value="{{water}}"></p>
     {{/each }}
     
     
-<br>
+{{!-- <br>
 <img id="drag1" src="http://icons.iconarchive.com/icons/robinweatherall/veggers/128/Carrot-icon.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
 <img id="drag2" src="http://icons.iconarchive.com/icons/fengsj/vegetables/128/Tomato-icon.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
-<img id="drag3" src="http://www.jackieleonards.ie/wp-content/uploads/2015/03/basil.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+<img id="drag3" src="http://www.jackieleonards.ie/wp-content/uploads/2015/03/basil.png" draggable="true" ondragstart="drag(event)" width="336" height="69"> --}}
 
 </div>
