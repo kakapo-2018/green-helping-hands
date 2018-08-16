@@ -1,5 +1,8 @@
-<button>{{!-- name of a veg/fruit --}}</button>
-<button>{{!-- name of a veg/fruit --}}</button>
-<button>{{!-- name of a veg/fruit --}}</button>
-<button>{{!-- name of a veg/fruit --}}</button>
-<button>{{!-- name of a veg/fruit --}}</button>
+<div class="container">
+    {{#each vegetables}}
+    <button class="vege" onclick="addToGarden()">{{name}}</button>
+    {{/each}}
+    
+    <p id="demo"></p>
+
+</div>
