@@ -1,1 +1,1 @@
-// alert("you hit the scripts js");
+//alert("you hit the scripts js");

@@ -14,7 +14,7 @@ server.get('/', function(req, res){
 // })
 
 server.get('/gardens', function(req, res){
-    res.render('garden')
+    res.render('garden', data)
 })
 
 module.exports = server
