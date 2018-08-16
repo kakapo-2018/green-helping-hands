@@ -25,13 +25,15 @@ function drag(ev) {
 
 function drop(ev) {
     ev.preventDefault();
-                    var data=ev.dataTransfer.getData("Text");
+                    var idOfDraggedItem=ev.dataTransfer.getData("Text");
                     var copyimg = document.createElement("img");
-                    var original = document.getElementById(data);
+                    var original = document.getElementById(idOfDraggedItem);
                     if (original == null){
                         alert("you already have a plant there")
                     }
                     copyimg.src = original.src;
+                    console.log("I need this much water:")
+                    console.log(original.dataset.waterRequired)
                     ev.target.appendChild(copyimg);
 }
 
