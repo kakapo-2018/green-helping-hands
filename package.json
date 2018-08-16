@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/kakapo-2018/green-helping-hands.git",
-  "author": "",
+  "author": "<richardboeve@hotmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "express-handlebars": "^3.0.0",
-    "node": "^10.8.0",
-    "express": "^4.16.3"
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.3",
-    "supertest": "^3.1.0"
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+
   }
 }
