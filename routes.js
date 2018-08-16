@@ -1,12 +1,18 @@
 let express = require('express'),
 server = express();
 
-server.get('/', function(req, res) {
-	res.sendFile('index')
+
+server.get('/', function(req, res){
+    res.render('home')
+
 })
 
+// server.get('/', function(req, res) {
+// 	res.sendFile('index')
+// })
+
 server.get('/garden', function(req, res){
-    res.send('gardenView')
+    res.render('garden')
 
 })
 
