@@ -1,0 +1,32 @@
+{"vegetables" : [ 
+    {
+        "id": 1,
+        "name" : "tomato",
+        "water" : 12
+    },
+    {
+        "id": 2,
+        "name" : "basil",
+        "water" : 12
+    },
+    {
+        "id": 3,
+        "name" : "potato",
+        "water" : 4
+    },
+    {
+        "id": 4,
+        "name" : "kumara",
+        "water" : 4
+    },
+    {
+        "id": 5,
+        "name" : "radish",
+        "water" : 7
+    },
+    {
+        "id": 6,
+        "name" : "carrot",
+        "water" : 7
+    }
+]}
