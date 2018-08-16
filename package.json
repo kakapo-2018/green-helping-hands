@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/kakapo-2018/green-helping-hands.git",
-  "author": "<yuzuki.sadoh@gmail.com>",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "express-handlebars": "^3.0.0",
