@@ -1,12 +1,12 @@
-<div class="containerVege">
+<div class="container containerVege">
+    <div class="row">
     {{#each vegetables}}
-    <div class="vege" ><img src="{{image}}"id="drag{{id}}" data-water-required="5" draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()"/></div>
-    <p value="{{water}}"></p>
+    <div class="vege col-sm-2"><img src="{{image}}"id="drag{{id}}" data-water-required="5" draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()"/></div>
     {{/each }}
 
     <div id="myDataStore" style="display:none;" data-total-water-required="0"></div>
     <div id="waterRequired"></div>
-    
+    </div>
 {{!-- <br>
 <img id="drag1" src="http://icons.iconarchive.com/icons/robinweatherall/veggers/128/Carrot-icon.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
 <img id="drag2" src="http://icons.iconarchive.com/icons/fengsj/vegetables/128/Tomato-icon.png" draggable="true" ondragstart="drag(event)" width="336" height="69">

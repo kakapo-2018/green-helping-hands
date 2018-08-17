@@ -35,6 +35,8 @@ function drop(ev) {
                     console.log("I need this much water:")
                     console.log(original.dataset.waterRequired)
                     ev.target.appendChild(copyimg);
+
+                    
 }
 
 function emptyDiv1(){
@@ -52,3 +54,5 @@ function emptyDiv3(){
 function emptyDiv4(){
     document.getElementById("div4").innerHTML = "";
 }
+
+

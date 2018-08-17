@@ -18,5 +18,6 @@ server.set('view engine', 'hbs')
 server.use(express.urlencoded({ extended: false }))
 server.use(express.static(path.join(__dirname, 'public')))
 server.use('/', routes)
+// server.use('/gardens', gardenRoutes)
 
 module.exports = server
