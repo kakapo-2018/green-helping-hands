@@ -44,14 +44,17 @@ function drop(ev) {
                     // }
                     waterArray.push(original.dataset.waterRequired)
                     //waterArray.splice(1, 1, original.dataset.waterRequired)
-                    document.getElementById("waterRequired-1").innerHTML = waterArray
+                    //document.getElementById("waterRequired-1").innerHTML = waterArray
 
                     ev.target.appendChild(copyimg);
                     
                     calculateWaterDifferenceRow1(waterArray)
                     calculateWaterDifferenceRow2(waterArray)
 
-                    console.log(waterArray)
+                    calculateWaterDifferenceColumn1(waterArray)
+                    calculateWaterDifferenceColumn2(waterArray)
+
+                    //console.log(waterArray)
 }
 
 function emptyDiv1(){
@@ -76,11 +79,19 @@ function calculateWaterDifferenceRow1(array) {
     difference = Math.abs(difference)
     console.log(difference)
     if(difference > 10) {
-        return console.log("Red")
+        document.getElementById("div1").classList.add("badMatch")
+        document.getElementById("div1").style.borderRight = "thick solid red";
+        document.getElementById("div2").classList.add("badMatch") 
+        return 
     } else if (difference <= 4) {
-        return console.log("Green")
+        document.getElementById("div1").classList.add("goodMatch") 
+        document.getElementById("div1").style.borderRight = "thick solid green";
+        document.getElementById("div2").classList.add("goodMatch") 
+        return 
     } else if (difference > 4) {
-        return console.log("Brown")
+        document.getElementById("div1").classList.add("averageMatch") 
+        document.getElementById("div2").classList.add("averageMatch") 
+        return
     }
 }
 
@@ -90,12 +101,63 @@ function calculateWaterDifferenceRow2(array) {
     difference = Math.abs(difference)
     console.log(difference)
     if(difference > 10) {
-        return console.log("Red")
+        document.getElementById("div3").classList.add("badMatch") 
+        document.getElementById("div3").style.borderRight = "thick solid red";
+        document.getElementById("div4").classList.add("badMatch") 
+        return 
     } else if (difference <= 4) {
-        return console.log("Green")
+        document.getElementById("div3").classList.add("goodMatch") 
+        document.getElementById("div4").classList.add("goodMatch") 
+        return 
     } else if (difference > 4) {
-        return console.log("Brown")
+        document.getElementById("div3").classList.add("averageMatch") 
+        document.getElementById("div4").classList.add("averageMatch") 
+        return
     }
 }
 
+function calculateWaterDifferenceColumn1(array){
+    let cell1 = document.getElementById("div1")
+    let cell3 = document.getElementById("div3")
 
+    let difference;
+    difference = array[0] - array[2]
+    difference = Math.abs(difference)
+    console.log(difference)
+    if(difference > 10) {
+        cell1.classList.add("badMatch") 
+        cell3.classList.add("badMatch") 
+        return 
+    } else if (difference <= 4) {
+        cell1.classList.add("goodMatch") 
+        cell3.classList.add("goodMatch") 
+        return 
+    } else if (difference > 4) {
+        cell1.classList.add("averageMatch") 
+        cell3.classList.add("averageMatch") 
+        return
+    }
+}
+
+function calculateWaterDifferenceColumn2(array){
+    let cell2 = document.getElementById("div2")
+    let cell4 = document.getElementById("div4")
+
+    let difference;
+    difference = array[1] - array[3]
+    difference = Math.abs(difference)
+    console.log(difference)
+    if(difference > 10) {
+        cell2.classList.add("badMatch") 
+        cell4.classList.add("badMatch") 
+        return 
+    } else if (difference <= 4) {
+        cell2.classList.add("goodMatch") 
+        cell4.classList.add("goodMatch") 
+        return 
+    } else if (difference > 4) {
+        cell2.classList.add("averageMatch") 
+        cell4.classList.add("averageMatch") 
+        return
+    }
+}
