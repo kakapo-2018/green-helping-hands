@@ -94,6 +94,10 @@ body {
   
   #landing-header h1 {
     color: #fff;
+    font-size: 3em;
+    -webkit-text-stroke: 1px black;
+    padding-bottom: 20px;
+
   }
   
   .slideshow { 
@@ -123,23 +127,19 @@ body {
   }
   
   .slideshow li:nth-child(1) { 
-    background-image: url(http://dailytexangov.me/wp-content/uploads/2018/05/photo-of-a-fall-vegetable-garden-versatile-vegetables-for-gardening-indiana-yard-and-10-veggie.jpg) 
-  }
+   background-image: url(/images/g1.jpg)  }
   .slideshow li:nth-child(2) { 
-    background-image: url(http://www.restorethelakes.org/wp-content/uploads/2017/10/raised-bed-vegetable-garden-4x4-plans-soil-veg.jpg);
-    animation-delay: 10s; 
+    background-image: url(/images/g2.jpg);
+    animation-delay: 5s; 
   }
   .slideshow li:nth-child(3) { 
-    background-image: url(https://images1.laweekly.com/imager/u/745xauto/7970154/hso_hkam_garden_school3.jpg);
-    animation-delay: 20s; 
+    background-image: url(/images/g3.jpg);    animation-delay: 15s; 
   }
   .slideshow li:nth-child(4) { 
-    background-image: url(http://www.parraparents.com.au/wp-content/uploads/2017/07/IMG_20170802_094631.jpg);
-    animation-delay: 30s; 
+    background-image: url(/images/g4.jpg);    animation-delay: 25s; 
   }
   .slideshow li:nth-child(5) { 
-    background-image: url(http://www.restorethelakes.org/wp-content/uploads/2017/10/raised-bed-vegetable-garden-g-s-example-plans-how-to-build-small-ideas.jpg);
-    animation-delay: 40s; 
+    background-image: url(/images/g5.jpg);    animation-delay: 35s; 
   }
   
   @keyframes imageAnimation { 
