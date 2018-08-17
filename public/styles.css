@@ -22,7 +22,6 @@ body {
     height: 250px;
     background-color: brown;
     padding: 5px;
-
 }
 
 .top-row {
@@ -209,11 +208,36 @@ img {
 
 .containerVege {
   display: flex;
+  justify-content: center;
   margin-left: 10px;
   padding-right: 1em;
   padding-bottom: 25px;
+  width: 100%;
 }
 
 .vege {
+
   padding : 1em;
+}
+
+.headingText {
+  text-align: center;
+  color: rgba(157,193,131, 1);
+  font-weight: 900;
+}
+
+.gardenRow {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(157,193,131, 1);
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3px;
 }
