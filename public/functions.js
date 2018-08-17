@@ -6,8 +6,10 @@ let divOne = document.getElementById("div1");
 //     alert('clicked');
 // })
 
+let waterArray = []
+
 function addToGarden(){
-    console.log(selectedVege.innerText)
+    //console.log(selectedVege.innerText)
 }
 
 // .addEventListener("click", function(){
@@ -24,6 +26,8 @@ function drag(ev) {
 }
 
 function drop(ev) {
+
+    
     ev.preventDefault();
                     var idOfDraggedItem=ev.dataTransfer.getData("Text");
                     var copyimg = document.createElement("img");
@@ -34,7 +38,19 @@ function drop(ev) {
                     copyimg.src = original.src;
                     console.log("I need this much water:")
                     console.log(original.dataset.waterRequired)
+                    // for (let i = 0; i < waterArray.length; i++) {
+                        
+                        
+                    // }
+                    waterArray.push(original.dataset.waterRequired)
+                    //waterArray.splice(1, 1, original.dataset.waterRequired)
+                    document.getElementById("waterRequired-1").innerHTML = waterArray
+
                     ev.target.appendChild(copyimg);
+                    calculateWaterDifferenceRow1(waterArray)
+                    calculateWaterDifferenceRow2(waterArray)
+
+                    console.log(waterArray)
 }
 
 function emptyDiv1(){
@@ -52,3 +68,32 @@ function emptyDiv3(){
 function emptyDiv4(){
     document.getElementById("div4").innerHTML = "";
 }
+
+function calculateWaterDifferenceRow1(array) {
+    let difference;
+    difference = array[0] - array[1]
+    difference = Math.abs(difference)
+    console.log(difference)
+    if(difference > 10) {
+        return console.log("Red")
+    } else if (difference <= 4) {
+        return console.log("Green")
+    } else if (difference > 4) {
+        return console.log("Brown")
+    }
+}
+
+function calculateWaterDifferenceRow2(array) {
+    let difference;
+    difference = array[2] - array[3]
+    difference = Math.abs(difference)
+    console.log(difference)
+    if(difference > 10) {
+        return console.log("Red")
+    } else if (difference <= 4) {
+        return console.log("Green")
+    } else if (difference > 4) {
+        return console.log("Brown")
+    }
+}
+
