@@ -47,6 +47,7 @@ function drop(ev) {
                     document.getElementById("waterRequired-1").innerHTML = waterArray
 
                     ev.target.appendChild(copyimg);
+                    
                     calculateWaterDifferenceRow1(waterArray)
                     calculateWaterDifferenceRow2(waterArray)
 
@@ -96,4 +97,5 @@ function calculateWaterDifferenceRow2(array) {
         return console.log("Brown")
     }
 }
+
 
