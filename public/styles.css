@@ -241,3 +241,28 @@ img {
     text-align: center;
     letter-spacing: 0.3px;
 }
+
+.howTo-container {
+  display: flex; 
+  margin: auto;
+  height: 100%;
+}
+
+.howTo-title {
+  margin-left: 100px;
+}
+
+.howTo {
+  width: 300px;
+
+}
+
+.howTo-pic-1 {
+  width: 300px;
+  height: 300px;
+}
+
+.help-centered {
+  margin-left: 400px;
+}
+
