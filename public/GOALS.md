@@ -1,8 +1,7 @@
 // if garden grid is empty - display all vegetable
-=> DONE
+=> DONE via partial of garden select
 
 // * STRECH GOAL * on another partial - display all garden threats as slugs, rabbits, flies...
-
 
 // After one vegetable is placed - display only the good /Helps and / Helped properties of the chosen plant to assure a good matching garden
 

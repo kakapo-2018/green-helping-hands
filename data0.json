@@ -71,5 +71,32 @@
         "comments": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
         "image": "/images/broccoli.png"
     }
-]}
+],
+"threats" : [
+    {
+        "id": 1,
+        "name" : "wireworms",
+        "attracted": [],
+        "repeled": [],
+        "comments": "",
+        "image": "/images/wireworm.png"
+    },
+    {
+        "id": 2,
+        "name" : "rabbits",
+        "attracted": [],
+        "repeled": [],
+        "comments": "",
+        "image": "/images/rabbit.png"
+    },
+    {
+        "id": 3,
+        "name" : "slugs",
+        "attracted": [],
+        "repeled": [],
+        "comments": "",
+        "image": "/images/slug.png"
+    }
+]
+}
 

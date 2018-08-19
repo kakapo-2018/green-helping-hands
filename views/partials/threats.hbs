@@ -1,0 +1,14 @@
+<div class="container containerThreats">
+    <div class="row">
+    {{#each threats}}
+
+    <div class="vege col-sm-2">
+        <img src="{{image}}"id="drag{{id}}" name="{{name}}" draggable="true" ondragstart="drag(event)" width="336" height="69" onclick="addToGarden()"/>
+    </div>
+    {{/each }}
+
+{{!--  NEED DATA FOR 
+ ["carrot fly", "cabbage loopers", "cabbage maggots", "cabbage worms", "japanese beetles"]["ladybugs"]["wireworms"] --}}
+
+</div>
+</div>
