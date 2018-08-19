@@ -5,11 +5,11 @@
         "scientific name": "allium",
         "helps": ["fruit tree", "tomatoes", "capsicum", "peppers", "potatoes", "carrots", "brassicas"],
         "helped by": ["tomatoes", "african spider plants", "carrots", "marigolds","mints"],
-        "attracts": "thrips",
+        "attracts": ["thrips"],
         "repels": ["rabbits", "slugs", "carrot fly", "cabbage loopers", "cabbage maggots", "cabbage worms", "japanese beetles"],
         "avoid": ["beans, "peas"],
-        "comments": "alliums are a family of plants which imclude onions, garlic, leeks, shallots, chives, and others",
-        "image": "",
+        "comments": "alliums are a family of plants which include onions, garlic, leeks, shallots, chives, and others",
+        "image": "/images/i2.png"
     },
     {
         "id": 2,
@@ -17,11 +17,59 @@
         "scientific name": "asparagus officinalis",
         "helps": ["parsley", "tomatoes"],
         "helped by": ["tomatoes", "aster family flowers", "dill", "coriander","parsley", "basil", "marigolds", "nasturtiums", "comfrey"],
-        "attracts": "ladybugs",
+        "attracts": ["ladybugs"],
         "repels": [],
         "avoid": ["onions, "garlic", "potatoes", "gladiolus"],
         "comments": "",
-        "image": "",
+        "image": "/images/i6.png"
     },
+        {
+        "id": 3,
+        "common name" : "beans bush",
+        "scientific name": "Phaseolus vulgaris",
+        "helps": ["cucumbers","soybeans","strawberries"],
+        "helped by": ["strawberries", "Celery", "grains"],
+        "attracts": [],
+        "repels": [],
+        "avoid": ["Fennel, "soybeans", "dry beans", "alfalfa"],
+        "comments": "Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia" in the soil and should be avoided before and after snap beans.",
+        "image": "/images/i3.png"
+    },
+        {
+        "id": 4,
+        "common name" : "beans pole",
+        "scientific name": "Phaseolus vulgaris",
+        "helps": [],
+        "helped by": ["Radishes", "Corn"],
+        "attracts": [],
+        "repels": [],
+        "avoid": ["Sunflowers", "beets", "brassicas", "kohlrabi"],
+        "comments": "the stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn.",
+        "image": "/images/i3.png"
+    },
+        {
+        "id": 5,
+        "common name" : "Beets",
+        "scientific name": "Beta vulgaris",
+        "helps": ["Broccoli", "bush beans", "cabbage", "lettuce","kohlrabi","onions","brassicas","passion fruit"],
+        "helped by": ["Bush beans","onions","kohlrabi","catnip","garlic","lettuce","brassicas","mint"],
+        "attracts": [],
+        "repels": [],
+        "avoid": ["pole beans"],
+        "comments": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Pole beans and beets stunt each other's growth.",
+        "image": "/images/i4.png"
+    },
+        {
+        "id": 6,
+        "common name" : "Brassicas",
+        "scientific name": "Brassica",
+        "helps": ["Beets", "onions", "potatoes", "cereals"],
+        "helped by": ["Beets","spinach","chard","Aromatic plants","celery","chamomile","marigolds","Dill","sage","peas","peppermint","spearmint","spurrey","rosemary","rye-grass","garlic","onions","potatoes","geranuims","alliums","nasturtiums","borage","hyssop","tansy","tomatoes","thyme","wormwood","southernwood","beans","clover"],
+        "attracts": [],
+        "repels": ["wireworms"],
+        "avoid": ["Mustards", "nightshades","tomatoes","peppers","pole beans","strawberries"],
+        "comments": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
+        "image": "/images/i2.png"
+    }
 ]}
 

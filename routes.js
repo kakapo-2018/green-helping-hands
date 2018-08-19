@@ -6,7 +6,7 @@ server = express();
 const {
 	readJson,
 	writeJson,
-                } = require('./readFiles')
+    } = require('./readFiles')
 
 
 server.get('/', function(req, res){
