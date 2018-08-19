@@ -1,0 +1,27 @@
+{"vegetables" : [ 
+    {
+        "id": 1,
+        "common name" : "alliums",
+        "scientific name": "allium",
+        "helps": ["fruit tree", "tomatoes", "capsicum", "peppers", "potatoes", "carrots", "brassicas"],
+        "helped by": ["tomatoes", "african spider plants", "carrots", "marigolds","mints"],
+        "attracts": "thrips",
+        "repels": ["rabbits", "slugs", "carrot fly", "cabbage loopers", "cabbage maggots", "cabbage worms", "japanese beetles"],
+        "avoid": ["beans, "peas"],
+        "comments": "alliums are a family of plants which imclude onions, garlic, leeks, shallots, chives, and others",
+        "image": "",
+    },
+    {
+        "id": 2,
+        "common name" : "asparagus",
+        "scientific name": "asparagus officinalis",
+        "helps": ["parsley", "tomatoes"],
+        "helped by": ["tomatoes", "aster family flowers", "dill", "coriander","parsley", "basil", "marigolds", "nasturtiums", "comfrey"],
+        "attracts": "ladybugs",
+        "repels": [],
+        "avoid": ["onions, "garlic", "potatoes", "gladiolus"],
+        "comments": "",
+        "image": "",
+    },
+]}
+
