@@ -8,15 +8,6 @@ let divOne = document.getElementById("div1");
 
 let waterArray = []
 
-function addToGarden(){
-    //console.log(selectedVege.innerText)
-}
-
-// .addEventListener("click", function(){
-//     document.getElementById("demo").innerHTML = "Hello World";
-// });
-
-
 function allowDrop(ev) {
     ev.preventDefault();
 }

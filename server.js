@@ -1,5 +1,5 @@
 var path = require('path')
-var routes = require('./routes')
+var routes = require('./routes-new')
 var express = require('express')
 var hbs = require('express-handlebars') 
 var server = express()

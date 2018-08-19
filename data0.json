@@ -7,7 +7,7 @@
         "helped by": ["tomatoes", "african spider plants", "carrots", "marigolds","mints"],
         "attracts": ["thrips"],
         "repels": ["rabbits", "slugs", "carrot fly", "cabbage loopers", "cabbage maggots", "cabbage worms", "japanese beetles"],
-        "avoid": ["beans, "peas"],
+        "avoid": ["beans", "peas"],
         "comments": "alliums are a family of plants which include onions, garlic, leeks, shallots, chives, and others",
         "image": "/images/i2.png"
     },
@@ -19,7 +19,7 @@
         "helped by": ["tomatoes", "aster family flowers", "dill", "coriander","parsley", "basil", "marigolds", "nasturtiums", "comfrey"],
         "attracts": ["ladybugs"],
         "repels": [],
-        "avoid": ["onions, "garlic", "potatoes", "gladiolus"],
+        "avoid": ["onions", "garlic", "potatoes", "gladiolus"],
         "comments": "",
         "image": "/images/i6.png"
     },
@@ -31,8 +31,8 @@
         "helped by": ["strawberries", "Celery", "grains"],
         "attracts": [],
         "repels": [],
-        "avoid": ["Fennel, "soybeans", "dry beans", "alfalfa"],
-        "comments": "Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia" in the soil and should be avoided before and after snap beans.",
+        "avoid": ["Fennel", "soybeans", "dry beans", "alfalfa"],
+        "comments": "Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia in the soil and should be avoided before and after snap beans.",
         "image": "/images/i3.png"
     },
         {
@@ -44,7 +44,7 @@
         "attracts": [],
         "repels": [],
         "avoid": ["Sunflowers", "beets", "brassicas", "kohlrabi"],
-        "comments": "the stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn.",
+        "comments": "The stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn.",
         "image": "/images/i3.png"
     },
         {
