@@ -9,7 +9,7 @@
         "repels": ["rabbits", "slugs", "carrot fly", "cabbage loopers", "cabbage maggots", "cabbage worms", "japanese beetles"],
         "avoid": ["beans", "peas"],
         "comments": "alliums are a family of plants which include onions, garlic, leeks, shallots, chives, and others",
-        "image": "/images/i2.png"
+        "image": "/images/onion1.png"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "repels": [],
         "avoid": ["onions", "garlic", "potatoes", "gladiolus"],
         "comments": "",
-        "image": "/images/i6.png"
+        "image": "/images/asparagus1.png"
     },
         {
         "id": 3,
@@ -33,7 +33,7 @@
         "repels": [],
         "avoid": ["Fennel", "soybeans", "dry beans", "alfalfa"],
         "comments": "Lettuce, potato, tomato, other legumes, crucifers, or cucurbits increase sclerotinia in the soil and should be avoided before and after snap beans.",
-        "image": "/images/i3.png"
+        "image": "/images/beans-bush.png"
     },
         {
         "id": 4,
@@ -45,7 +45,7 @@
         "repels": [],
         "avoid": ["Sunflowers", "beets", "brassicas", "kohlrabi"],
         "comments": "The stalk of the corn provides a pole for the beans to grow on, which then gives nitrogen to the soil of the corn.",
-        "image": "/images/i3.png"
+        "image": "/images/beans-pole.png"
     },
         {
         "id": 5,
@@ -57,7 +57,7 @@
         "repels": [],
         "avoid": ["pole beans"],
         "comments": "Good for adding minerals to the soil through composting leaves which have up to 25% magnesium. Pole beans and beets stunt each other's growth.",
-        "image": "/images/i4.png"
+        "image": "/images/beets.png"
     },
         {
         "id": 6,
@@ -69,7 +69,7 @@
         "repels": ["wireworms"],
         "avoid": ["Mustards", "nightshades","tomatoes","peppers","pole beans","strawberries"],
         "comments": "Brassicas are a family of plants which includes broccoli, Brussels sprouts, cabbage, cauliflower, Chinese cabbage, kohlrabi, radish, and turnip. Thyme, nasturtiums, and onion showed good resistance to cabbage worm, weevil and cabbage looper.",
-        "image": "/images/i2.png"
+        "image": "/images/broccoli.png"
     }
 ]}
 
